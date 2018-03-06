@@ -7,7 +7,7 @@
 	<button ng-click="getAddress(cepAdd)" >BUSCAR</button>
 </div>
 
-<div>
+<div ng-show="fullAddress">
 	ESTRUTURA RETORNADA PELA API DE BUSCA DE CEP:
 </br></br>
 	{{fullAddress}}
